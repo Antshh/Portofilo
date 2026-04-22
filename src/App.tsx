@@ -16,7 +16,6 @@ import {
   GraduationCap
 } from 'lucide-react';
 import { useState, useRef, FormEvent } from 'react';
-import profileImg from './assets/profile.jpg';
 
 // --- Components ---
 
@@ -165,7 +164,7 @@ const About = () => {
           </div>
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl transition-transform duration-700">
              <img 
-                src={profileImg} 
+                src="/profile.jpg" 
                 alt="Anteneh Tsegaye" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
